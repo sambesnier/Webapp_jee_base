@@ -1,4 +1,4 @@
-package com.grim.security;
+package com.sambesnier.security;
 
 import java.io.IOException;
 import javax.servlet.Filter;
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet Filter implementation class AuthenticationFilter
  */
-@WebFilter("/user/*")
+@WebFilter("/in/*")
 public class AuthenticationFilter implements Filter {
 
     /**
